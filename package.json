@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "svelte-component",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "build:shared": "svelte compile src/component.html -f es -o dist/cli-shared.js --shared",
+    "build:non-shared": "svelte compile src/component.html -f es -o dist/cli-non-shared.js",
+    "build:all": "rm ./dist/*; yarn build; yarn build:shared; yarn build:non-shared; yarn build:legacy",
+    "postbuild:shared": "squash dist/cli-shared.js > dist/cli-shared.min.js",
+    "postbuild:non-shared": "squash dist/cli-non-shared.js > dist/cli-non-shared.min.js",
+    "serve": "sirv start"
+  },
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-butternut": "^0.1.0",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-svelte": "^4.2.1",
+    "sirv-cli": "^0.1.5",
+    "svelte": "^2.11.0"
+  }
+}

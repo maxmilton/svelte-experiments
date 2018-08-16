@@ -1,0 +1,14 @@
+<button ref:foo>button</button>
+
+<script>
+  export default {
+    oncreate() {
+      this.refs.foo.onclick = this.foo;
+    },
+    methods: {
+      foo() {
+        console.log(this);
+      },
+    },
+  };
+</script>
