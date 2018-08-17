@@ -1,7 +1,9 @@
 {
   "private": true,
-  "name": "svelte-component",
+  "name": "svelte-experiments",
   "version": "1.0.0",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
