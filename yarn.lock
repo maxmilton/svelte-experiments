@@ -190,9 +190,9 @@ sade@^1.4.0:
     mri "^1.1.0"
     pad-right "^0.2.2"
 
-sirv-cli@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/sirv-cli/-/sirv-cli-0.4.3.tgz#507905df5f4204dff9bf1c8ba27e769587bad8f9"
+sirv-cli@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/sirv-cli/-/sirv-cli-0.4.4.tgz#810bb98a76905b90ee349fcc8306b9995e045baa"
   dependencies:
     console-clear "^1.1.0"
     get-port "^3.2.0"
