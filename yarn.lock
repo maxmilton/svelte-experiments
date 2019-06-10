@@ -166,9 +166,9 @@ rollup-plugin-node-resolve@^4.2.4:
     is-module "^1.0.0"
     resolve "^1.10.0"
 
-rollup-plugin-svelte@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-5.0.3.tgz#1e4cce33a94b0b4b4831abc7d76eabdf333ab63d"
+rollup-plugin-svelte@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-5.1.0.tgz#6c2d3998db9141a934343a0e7298499994aadd25"
   dependencies:
     require-relative "^0.8.7"
     rollup-pluginutils "^2.3.3"
