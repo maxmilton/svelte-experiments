@@ -15,7 +15,7 @@
     "serve": "sirv start"
   },
   "devDependencies": {
-    "rollup": "^1.14.6",
+    "rollup": "^1.15.3",
     "rollup-plugin-butternut": "^0.1.0",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
