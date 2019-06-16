@@ -10,9 +10,9 @@
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
 
-"@types/node@*", "@types/node@^12.0.7":
-  version "12.0.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.7.tgz#4f2563bad652b2acb1722d7e7aae2b0ff62d192c"
+"@types/node@*", "@types/node@^12.0.8":
+  version "12.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.8.tgz#551466be11b2adc3f3d47156758f610bd9f6b1d8"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
@@ -180,12 +180,12 @@ rollup-pluginutils@^2.3.3, rollup-pluginutils@^2.6.0:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.14.6:
-  version "1.14.6"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.14.6.tgz#4d1165bdcdac4d0510ce127495c42f238098943d"
+rollup@^1.15.6:
+  version "1.15.6"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.15.6.tgz#caf0ed28d2d78e3a59c1398e5a3695fb600a0ef0"
   dependencies:
     "@types/estree" "0.0.39"
-    "@types/node" "^12.0.7"
+    "@types/node" "^12.0.8"
     acorn "^6.1.1"
 
 sade@^1.4.0:
