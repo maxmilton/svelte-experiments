@@ -228,9 +228,9 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-svelte@^3.4.4:
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.4.4.tgz#8dcb60796b2b5a47175371f0763a612bf33a0944"
+svelte@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.5.2.tgz#d59187123e2878ca8d6a4484b8ab9e4b3b30f656"
 
 tinydate@^1.0.0:
   version "1.0.0"
